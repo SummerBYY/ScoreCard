@@ -2,6 +2,10 @@
 ```math
 y = \beta_0+\beta_1x_1+\beta_2x_2+···+\beta_kx_k+\epsilon
 ```
+
+![](https://cdn.nlark.com/yuque/__latex/2f40976514e9fe1594ca0f3a574d72c4.svg#card=math&code=y%20%3D%20%5Cbeta_0%2B%5Cbeta_1x_1%2B%5Cbeta_2x_2%2B%C2%B7%C2%B7%C2%B7%2B%5Cbeta_kx_k%2B%5Cepsilon%0A&height=18&width=283)
+
+
 还不能直接用它去做分析和预测，还需对回归方程进行检验，也即模型检验。参数估计是通过样本量估计总体参数，而假设检验是先对总体参数提出一个假设，然后利用样本信息去检验这个假设是否成立。
 模型检验分位两部分，一是系数检验，常用方式是T检验；二是方程检验，常用方法是方差分析，也叫F检验。
 
